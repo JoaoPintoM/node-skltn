@@ -1,5 +1,12 @@
+## [1.1.0] - 2016-05-16
+### Added
+- README for usage and contributions
+### Modified
+- npm scripts have been updated
+- package description
+
 ## [1.0.0] - 2016-05-16
 ### Added
-- Usefull CHANGELOG to track version changes
-- Initial version of the project using Node.JS, Babel and Gulp
-- Using airbnb lint rules
+- CHANGELOG to track version changes
+- initial version of the project using NodeJS, Babel and Gulp
+- using airbnb lint rules
