@@ -1,7 +1,7 @@
 {
   "name": "node-babel-gulp-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "With this repo you will be able to write easily latest JavaScript code",
   "main": "src/index.js",
   "scripts": {
     "start": "pm2 start ./build/index.js --name=boilerplate",
