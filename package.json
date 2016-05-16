@@ -1,12 +1,12 @@
 {
-  "name": "slack-bot-public",
+  "name": "node-babel-gulp-boilerplate",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "start": "pm2 start ./build/index.js --name=slack-bot-public",
+    "start": "pm2 start ./build/index.js --name=boilerplate",
     "dev": "gulp clean && gulp",
-    "dev-server": "pm2 start ./build/index.js --watch --name=slack-bot-public",
+    "dev-server": "pm2 start ./build/index.js --watch --name=boilerplate",
     "build": "gulp clean && gulp build",
     "clean": "gulp clean",
     "test": "echo \"Error: no test specified\" && exit 1"
