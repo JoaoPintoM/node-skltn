@@ -1,7 +1,6 @@
 {
   "name": "node-babel-gulp-boilerplate",
-  "version": "1.0.0",
-  "description": "With this repo you will be able to write easily latest JavaScript code",
+  "version": "1.1.0",
   "description": "NodeJS boilerplate for scripts using Babel and Gulp",
   "main": "src/index.js",
   "scripts": {
