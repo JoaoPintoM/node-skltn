@@ -5,8 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "start": "pm2 start ./build/index.js --name=boilerplate",
+    "watch": "pm2 start ./build/index.js --watch --name=boilerplate",
     "dev": "gulp clean && gulp",
-    "dev-server": "pm2 start ./build/index.js --watch --name=boilerplate",
     "build": "gulp clean && gulp build",
     "clean": "gulp clean",
     "test": "echo \"Error: no test specified\" && exit 1"
