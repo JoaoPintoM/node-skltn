@@ -2,16 +2,15 @@
 
 I encourage you to use Node Version Manager a.k.a [NVM](https://github.com/creationix/nvm) to handle Node version on your computer.
 
-This application has been written using __Node v4.4.3 LTS__
+This application has been written using __Node v6.6.2__
 
-You must insall [gulp](http://gulpjs.com/) and [pm2](http://pm2.keymetrics.io/) to use npm scripts.
+You must insall [gulp](http://gulpjs.com/) to use npm scripts.
 
 ```
-npm install gulp pm2 -g
+npm install gulp -g
 cd PROJECT_ROOT
-npm run dev
 npm run watch
-pm2 logs
+npm start
 ```
 
 # CONTRIBUTE
@@ -43,8 +42,7 @@ gulp.task('watch', () => {
 
 __Available commands__ :
 
-* npm run start
-* npm run dev
+* npm start
 * npm run watch
 * npm run clean
 * npm run build

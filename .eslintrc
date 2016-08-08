@@ -1,8 +1,4 @@
-{
-  "parser": "babel-eslint",
-  "extends": "airbnb",
-  "rules": {
-    "new-cap": 0,
-    "strict": 0
-  }
-}
+parser: babel-eslint
+extends: airbnb-base
+rules:
+  generator-star-spacing: 0
