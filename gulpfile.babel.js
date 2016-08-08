@@ -17,7 +17,7 @@ function transpile({ source, destination, sourceRoot }, done) {
   gulp.src(source)
     .pipe(sourcemaps.init())
     .pipe(babel({
-      plugins: ['transform-runtime'], // this is used to compile async/await to generators
+      plugins: ['transform-async-to-generator'], // this is used to compile async/await to generators
     }))
     .on('error', (error) => {
       // emit here

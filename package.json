@@ -1,12 +1,11 @@
 {
   "name": "node-babel-gulp-boilerplate",
-  "version": "1.1.0",
-  "description": "NodeJS boilerplate for scripts using Babel and Gulp",
+  "version": "2.0.0",
+  "description": "node6-babel-gulp-boilerplate",
   "main": "src/index.js",
   "scripts": {
-    "start": "pm2 start ./build/index.js --name=boilerplate",
-    "watch": "pm2 start ./build/index.js --watch --name=boilerplate",
-    "dev": "gulp clean && gulp",
+    "start": "node build/index.js",
+    "watch": "gulp clean && gulp",
     "build": "gulp clean && gulp build",
     "clean": "gulp clean",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,9 +18,9 @@
   "devDependencies": {
     "babel-core": "^6.13.2",
     "babel-eslint": "^6.1.2",
-    "babel-plugin-transform-runtime": "^6.12.0",
-    "babel-preset-es2015": "^6.13.2",
-    "babel-preset-stage-1": "^6.13.0",
+    "babel-plugin-transform-async-to-generator": "^6.8.0",
+    "babel-preset-node6": "^11.0.0",
+    "babel-preset-stage-3": "^6.11.0",
     "eslint": "^3.2.2",
     "eslint-config-airbnb": "^10.0.0",
     "eslint-plugin-import": "^1.12.0",
