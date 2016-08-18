@@ -6,8 +6,8 @@
   "scripts": {
     "start": "node build/index.js",
     "watch": "gulp clean && gulp",
-    "build": "gulp clean && gulp build",
     "clean": "gulp clean",
+    "build": "gulp clean && gulp build",
     "prepublish": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
