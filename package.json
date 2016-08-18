@@ -1,6 +1,6 @@
 {
   "name": "node6-babel-gulp-boilerplate",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "node6-babel-gulp-boilerplate",
   "main": "build/index.js",
   "scripts": {
