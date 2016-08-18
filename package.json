@@ -9,7 +9,8 @@
     "clean": "gulp clean",
     "build": "gulp clean && gulp build",
     "prepublish": "npm run build",
-    "test": "npm run build && mocha --compilers js:babel-core/register"
+    "test": "npm run build && mocha --compilers js:babel-core/register",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --compilers js:babel-core/register"
   },
   "author": "Maxime Sahroui <maxime.sahroui@gmail.com> (http://maximeshr.github.io)",
   "license": "MIT",
