@@ -8,6 +8,7 @@
     "watch": "gulp clean && gulp",
     "build": "gulp clean && gulp build",
     "clean": "gulp clean",
+    "prepublish": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Maxime Sahroui <maxime.sahroui@gmail.com> (http://maximeshr.github.io)",
