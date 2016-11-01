@@ -1,7 +1,7 @@
 module.exports = function (wallaby) { // eslint-disable-line func-names
   return {
     files: [
-      '.env',
+      { pattern: '.env', instrument: false },
       'src/**/*.js',
     ],
     tests: [
@@ -10,10 +10,14 @@ module.exports = function (wallaby) { // eslint-disable-line func-names
     compilers: {
       '**/*.js': wallaby.compilers.babel(),
     },
-    testFramework: 'tape',
     env: {
       type: 'node',
-      runner: 'node',
+      params: {
+        env: 'NODE_ENV=test',
+      },
+    },
+    setup: function setup() {
+      require('dotenv').config(); // eslint-disable-line global-require
     },
   };
 };
