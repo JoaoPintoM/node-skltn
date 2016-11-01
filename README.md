@@ -2,7 +2,7 @@
 
 I encourage you to use Node Version Manager a.k.a [NVM](https://github.com/creationix/nvm) to handle Node version on your computer.
 
-This application has been written using __Node v6.6.2__
+This application has been written using __Node v7.0.0__
 
 You must insall [gulp](http://gulpjs.com/) to use npm scripts.
 
@@ -46,3 +46,5 @@ __Available commands__ :
 * npm run watch
 * npm run clean
 * npm run build
+* npm run prepublish
+* npm run test
