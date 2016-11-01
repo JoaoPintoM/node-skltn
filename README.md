@@ -2,22 +2,29 @@
 
 I encourage you to use Node Version Manager a.k.a [NVM](https://github.com/creationix/nvm) to handle Node version on your computer.
 
+Also, I recentrly move on [yarn](https://yarnpkg.com) instead of npm.
+
 This application has been written using __Node v7.0.0__
 
-You must insall [gulp](http://gulpjs.com/) to use npm scripts.
+You must insall [gulp](http://gulpjs.com/) to use scripts.
 
 ```
-npm install gulp -g
+yarn add gulp -g
 cd PROJECT_ROOT
-npm run watch
-npm start
+yarn run watch
+yarn start
+```
+
+```
+yarn run prepublish
+yarn test
 ```
 
 # CONTRIBUTE
 
 Please use [gitflow](https://github.com/nvie/gitflow) if you need to update/hotfix some stuff here. Thanks a lot !
 
-Contact me for any PR at __maxime.sahroui@gmail.com__
+You can contact me directly on github or at __maxime.sahroui@gmail.com__.
 
 # GULP
 
