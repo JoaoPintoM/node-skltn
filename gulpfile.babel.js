@@ -16,9 +16,7 @@ const codePath = {
 function transpile({ source, destination, sourceRoot }, done) {
   gulp.src(source)
     .pipe(sourcemaps.init())
-    .pipe(babel({
-      plugins: ['transform-async-to-generator'],
-    }))
+    .pipe(babel({}))
     .on('error', (error) => {
       // emit here
       console.log(error);
