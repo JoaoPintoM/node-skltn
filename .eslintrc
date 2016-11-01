@@ -2,6 +2,7 @@
   "parser": "babel-eslint",
   "extends": "airbnb-base",
   "rules": {
-    "generator-star-spacing": 0
+    "generator-star-spacing": 0,
+    "import/no-extraneous-dependencies": 0,
   }
 }

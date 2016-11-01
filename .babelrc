@@ -1,5 +1,5 @@
 {
-  "presets": ["node6", "stage-3"],
+  "presets": ["node6", "es2017"],
   "sourceMaps": "both",
   "plugins": ["transform-async-to-generator"]
 }

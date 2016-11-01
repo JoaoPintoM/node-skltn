@@ -1,7 +1,7 @@
-import { default as gulp } from 'gulp';
-import { default as sourcemaps } from 'gulp-sourcemaps';
-import { default as babel } from 'gulp-babel';
-import { default as del } from 'del';
+import gulp from 'gulp';
+import sourcemaps from 'gulp-sourcemaps';
+import babel from 'gulp-babel';
+import del from 'del';
 
 const codeFolder = 'src';
 const buildFolder = 'build';
@@ -16,9 +16,7 @@ const codePath = {
 function transpile({ source, destination, sourceRoot }, done) {
   gulp.src(source)
     .pipe(sourcemaps.init())
-    .pipe(babel({
-      plugins: ['transform-async-to-generator'],
-    }))
+    .pipe(babel({}))
     .on('error', (error) => {
       // emit here
       console.log(error);
