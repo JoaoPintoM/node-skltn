@@ -1,7 +1,7 @@
-import { default as gulp } from 'gulp';
-import { default as sourcemaps } from 'gulp-sourcemaps';
-import { default as babel } from 'gulp-babel';
-import { default as del } from 'del';
+import gulp from 'gulp';
+import sourcemaps from 'gulp-sourcemaps';
+import babel from 'gulp-babel';
+import del from 'del';
 
 const codeFolder = 'src';
 const buildFolder = 'build';
