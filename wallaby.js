@@ -1,6 +1,7 @@
 module.exports = function (wallaby) { // eslint-disable-line func-names
   return {
     files: [
+      '.env',
       'src/**/*.js',
     ],
     tests: [
