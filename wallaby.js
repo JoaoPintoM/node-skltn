@@ -10,8 +10,10 @@ module.exports = function (wallaby) { // eslint-disable-line func-names
     compilers: {
       '**/*.js': wallaby.compilers.babel(),
     },
+    testFramework: 'tape',
     env: {
       type: 'node',
+      runner: 'node',
     },
   };
 };
