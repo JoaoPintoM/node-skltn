@@ -2,7 +2,7 @@
 
 I encourage you to use Node Version Manager a.k.a [NVM](https://github.com/creationix/nvm) to handle Node version on your computer.
 
-Also, I recentrly move on [yarn](https://yarnpkg.com) instead of npm.
+Also, I recently move on [yarn](https://yarnpkg.com) instead of npm. You can see some example why it's more usefull [here](https://www.sitepoint.com/yarn-vs-npm/).
 
 This application has been written using __Node v7.0.0__
 
@@ -45,13 +45,13 @@ gulp.task('watch', () => {
 });
 ```
 
-# NPM SCRIPTS
+# YARN SCRIPTS
 
 __Available commands__ :
 
-* npm start
-* npm run watch
-* npm run clean
-* npm run build
-* npm run prepublish
-* npm run test
+* yarn start
+* yarn test
+* yarn run watch
+* yarn run clean
+* yarn run build
+* yarn run prepublish
