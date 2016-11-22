@@ -8,10 +8,11 @@
     "clean": "gulp clean",
     "build": "gulp clean && gulp build",
     "prepublish": "npm run build",
-    "test": "_mocha --compilers js:babel-core/register"
+    "test": "tape -r babel-register test/**/*.test.js | faucet",
+    "cover": "rm -rf coverage && node_modules/.bin/babel-node node_modules/.bin/babel-istanbul cover tape test/**/*.test.js"
   },
   "repository": {
-    "url": "git@github.com:maximeshr/node6-babel-gulp-boilerplate.git",
+    "url": "git@github.com:maximeshr/node-skltn.git",
     "type": "git"
   },
   "author": "Maxime Sahroui <maxime.sahroui@gmail.com>",
