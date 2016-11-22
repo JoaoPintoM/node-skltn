@@ -1,21 +1,20 @@
-import assert from 'assert';
+import test from 'tape';
 import User from '../../src/users/user.model';
 
-describe('User', () => {
-  const name = 'x';
-  const id = 1;
-  const user = new User(id, name);
+function setup() {
+  const user = new User(1, 'foo');
+  return { user };
+}
 
-  it('should construct correctly', () => {
-    assert.equal(user.id, 1);
-    assert.equal(user.name, 'x');
-  });
+test('User#constructor', (t) => {
+  const { user } = setup();
+  t.equal(user.id, 1);
+  t.equal(user.name, 'foo');
+  t.end();
+});
 
-  it('should return correct format', () => {
-    const expected = {
-      id: 1,
-      name: 'x',
-    };
-    assert.deepEqual(user.format(), expected);
-  });
+test('User#format', (t) => {
+  const { user } = setup();
+  t.deepEqual(user.format(), { id: 1, name: 'foo' });
+  t.end();
 });

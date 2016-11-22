@@ -4,7 +4,7 @@ I encourage you to use Node Version Manager a.k.a [NVM](https://github.com/creat
 
 Also, I recently move on [yarn](https://yarnpkg.com) instead of npm. You can see some example why it's more usefull [here](https://www.sitepoint.com/yarn-vs-npm/).
 
-This application has been written using __Node v7.0.0__
+This application has been written using __Node lts/boron (v6.9.1)__
 
 You must insall [gulp](http://gulpjs.com/) to use scripts.
 
@@ -55,3 +55,4 @@ __Available commands__ :
 * yarn run clean
 * yarn run build
 * yarn run prepublish
+* yarn run cover
