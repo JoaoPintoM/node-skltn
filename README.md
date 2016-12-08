@@ -6,7 +6,7 @@ Also, I recently move on [yarn](https://yarnpkg.com) instead of npm. You can see
 
 This application has been written using __Node lts/boron (v6.9.1)__
 
-You must insall [gulp](http://gulpjs.com/) to use scripts.
+You must install [gulp](http://gulpjs.com/) to use scripts.
 
 ```
 yarn add gulp -g
